@@ -1,8 +1,11 @@
-import time
-t1=time.monotonic()
-print("Hello, World!")
-for i in range(1,11):
-    print(i)
-t2=time.monotonic()
-t=t1-t2
-print(f"Time Elapsed: {t} secs")
+import os
+while True:
+    print("0"+"."*9,end="\n")
+    for i in range(9):
+        print("."*10,end="\n")
+    inp=input("")
+    if inp!="":
+        break
+    else:
+        pass
+    os.system('cls')

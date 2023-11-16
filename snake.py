@@ -1,8 +1,16 @@
 import os
+
+def print_to_screen():
+    str=''
+    for i in range(10):
+        str.append("."*10,end="\n")
+    print(str)
+
+
+
+
 while True:
-    print("0"+"."*9,end="\n")
-    for i in range(9):
-        print("."*10,end="\n")
+    print_to_screen()
     inp=input("")
     if inp!="":
         break

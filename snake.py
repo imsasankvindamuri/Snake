@@ -3,7 +3,7 @@ import os
 def print_to_screen():
     str=''
     for i in range(10):
-        str.append("."*10,end="\n")
+        str+="."*10+"\n"
     print(str)
 
 
